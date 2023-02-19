@@ -6,7 +6,7 @@ library(gifski)
 library(bslib)
 
 ui <- fluidPage(
-  theme = bs_theme(version = 4, bootswatch = "spacelab"),
+  theme = bs_theme(version = 4, bootswatch = "solar"),
   
   tags$style(HTML("
                   img {
