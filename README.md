@@ -29,13 +29,13 @@ Note: Once you click Start, wait a few seconds (about 1.5s per generation) for t
 - Referenced the following source to understand the game of life and its rules: 
 [Wikipedia Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-## Challenges we ran into
+## Challenges
 - Creating a game with R given that it is not usually used for this purpose
 - The program worked well locally, but it was difficult to get it launched
 - Creating animations
 - Many bugs
 
-## Accomplishments that we're proud of
-- Fixing many issues
+## Accomplishments
+- While it still has some bugs, I was able to fix many of them
 - Generating animated gifs
 - Launching it successfully
