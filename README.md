@@ -36,6 +36,6 @@ Note: Once you click Start, wait a few seconds (about 1.5s per generation) for t
 - Many bugs
 
 ## Accomplishments
-- Most bugs were fixed
+- Most of the identified bugs were fixed
 - Generating animated gifs
 - Launching it successfully
