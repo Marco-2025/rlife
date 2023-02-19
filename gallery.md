@@ -1,3 +1,3 @@
 # RLife Pattern Gallery
-![RLife Glider](glider.gif)
-<img src="glider.gif" alt="RLife Glider" height="200">
+<img src="glider.gif" alt="RLife Glider" height="250">
+Glider Pattern
