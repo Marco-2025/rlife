@@ -21,7 +21,7 @@ Note: Once you click Start, wait a few seconds (about 1.5s per generation) for t
 2. Download the template.csv file and edit as you wish
 4. Go to: [RLife](https://marcoprojects.shinyapps.io/rlife/)
 5. Upload your csv file
-6. Enter the number of generations you want to simulate (min=1, max=5)
+6. Enter the number of generations you want to simulate (min=1, max=50)
 
 ## How it was built
 - R
