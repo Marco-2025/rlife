@@ -9,7 +9,7 @@ Box Pattern
 <img src="box.gif" alt="RLife Box" height="250">
 <br>
 <br>
-Other Patterns
+Other Examples
 <br>
 <img src="1.gif" height="250">
 <br>
