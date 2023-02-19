@@ -145,7 +145,7 @@ server <- function(input, output) {
             if(b != a) {
               #Check if on a boundary
               #Not on a boundary
-              if(life[a,"X"]-1 > 0 && life[a,"X"]+1 < 11 && life[a,"Y"]-1 > 0 && life[a,"Y"]+1 < 11){
+              if(life[a,"X"]-1 > 0 && life[a,"X"]+1 < gameSize+1 && life[a,"Y"]-1 > 0 && life[a,"Y"]+1 < gameSize+1){
                 #Check if row b's X can neighbor row a's X
                 if(life[b,"X"] == life[a,"X"]-1 || life[b,"X"] == life[a,"X"] || life[b,"X"] == life[a,"X"]+1) {
                   #Check if row b's Y can neighbor row a's Y
@@ -158,7 +158,7 @@ server <- function(input, output) {
                 #Check X first
                 xNeighbour <- F
                 #If current row x is below 1
-                if (life[a,"X"]-1 < 1 && life[b,"X"] == 10) {
+                if (life[a,"X"]-1 < 1 && life[b,"X"] == gameSize) {
                   xNeighbour <- T
                 }
                 #If current row x is above 1
@@ -173,7 +173,7 @@ server <- function(input, output) {
                 #Now check Y
                 yNeighbour <- F
                 #If current row y is below 1
-                if (life[a,"Y"]-1 < 1 && life[b,"Y"] == 10) {
+                if (life[a,"Y"]-1 < 1 && life[b,"Y"] == gameSize) {
                   yNeighbour <- T
                   #If current row x is above 1
                 } else if (life[a,"Y"]+1 > 10 && life[b,"Y"] == 1) {
