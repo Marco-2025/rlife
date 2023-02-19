@@ -1,4 +1,4 @@
-# Rlife
+# RLife
 ![RLife Website](website.png)
 
 ## Inspiration
