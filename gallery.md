@@ -14,6 +14,4 @@ Other Examples
 <img src="1.gif" height="250">
 <br>
 <img src="2.gif" height="250">
-<br>
-<img src="3.gif" height="250">
 
